@@ -4,6 +4,8 @@ import { useState } from "react"
 import fire from "../assets/fire.png"
 import btc from "../assets/btc.png"
 import usdt from "../assets/usdt.png"
+import xrp from "../assets/xrp.png"
+
 import gainers from "../assets/gainers.png"
 import recent from "../assets/recent.png"
 
@@ -40,11 +42,11 @@ const Trending = () => {
             rate: "9.32%"
         }, {
             number: 3,
-            symbol: "BTC",
-            name: "Bitcoin",
-            icon: btc,
+            symbol: "XRP",
+            name: "Ripple",
+            icon: xrp,
             isIncrement: true,
-            rate: "2.34%"
+            rate: "5.34%"
         },
     ]
 
