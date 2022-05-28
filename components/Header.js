@@ -1,5 +1,5 @@
-import React from 'react'
 import Image from 'next/image'
+import Search from '../assets/svg/search'
 
 const styles = {
     header: `bg-[#17171A] text-white h-20 flex gap-[100px] w-full p-[20px]`,
@@ -60,6 +60,13 @@ const Header = () => {
                     <div className={styles.navLink}>Learn</div>
                 </div>
             </nav>
+            <div className='flex items-center'>
+                {/* <ConnectButton /> */}
+                <div className={styles.inputContainer}>
+                    <Search />
+                    <input className={styles.input} placeholder='Search' />
+                </div>
+            </div>
         </div>
     </div>
   )
