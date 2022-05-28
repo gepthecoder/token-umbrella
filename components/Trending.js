@@ -39,7 +39,7 @@ const Trending = () => {
             isIncrement: false,
             rate: "9.32%"
         }, {
-            number: 1,
+            number: 3,
             symbol: "BTC",
             name: "Bitcoin",
             icon: btc,
