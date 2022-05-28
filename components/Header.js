@@ -22,6 +22,45 @@ const Header = () => {
         width={220}
         height={100}
       />
+        <div className={styles.headerWrapper}>
+            <nav className={styles.nav}>
+                <div className={styles.navItem}>
+                    <div className={styles.navLink}>Cryptocurrencies</div>
+                    <div className={styles.badge} />
+                </div>
+
+                <div className={styles.navItem}>
+                    <div className={styles.navLink}>Exchanges</div>
+                </div>
+
+                <div className={styles.navItem}>
+                    <div className={styles.navLink}>NFT</div>
+                    <div className={styles.badge} />
+                </div>
+
+                <div className={styles.navItem}>
+                    <div className={styles.navLink}>Cryptown</div>
+                    <div className={styles.badge} />
+                </div>
+
+                <div className={styles.navItem}>
+                    <div className={styles.navLink}>Portfolio</div>
+                </div>
+
+                <div className={styles.navItem}>
+                    <div className={styles.navLink}>Watchlist</div>
+                </div>
+
+                <div className={styles.navItem}>
+                    <div className={styles.navLink}>Products</div>
+                    <div className={styles.badge} />
+                </div>
+
+                <div className={styles.navItem}>
+                    <div className={styles.navLink}>Learn</div>
+                </div>
+            </nav>
+        </div>
     </div>
   )
 }
