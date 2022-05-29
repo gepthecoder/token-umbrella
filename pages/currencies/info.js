@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react'
 // COMPONENTS
 import Header from '../../components/Header'
 import CMCpriceConverter from '../../components/CMCpriceConverter'
+import Graph from  '../../components/Graph'
+
 // IMAGES
 import solana from '../../assets/solana.png'
 import Usd from '../../assets/svg/usd'
@@ -65,7 +67,7 @@ const Currencies = () => {
                         </div>
                     </div>
                     <br />
-                    {/* <Graph /> */}
+                    <Graph />
                     <br />
                     <div className={styles.flexBetweenCenter}>
                         <div className='flex'>
