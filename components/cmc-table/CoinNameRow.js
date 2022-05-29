@@ -167,7 +167,7 @@ const CoinNameRow = ({ name, icon, clicked }) => {
     }
 
     return (
-        <div children={styles.coinNameRow}>
+        <div className={styles.coinNameRow}>
             <div className="mr-3 flex" onClick={clicked}>
                 <div className="mr-2">
                     {coinIcon()}
