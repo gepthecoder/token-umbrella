@@ -6,7 +6,8 @@ import More from '../../assets/svg/more'
 import Star from '../../assets/svg/star'
 
 // COMPONENTS
-import Rate from './rate'
+import CoinNameRow from './CoinNameRow'
+import Rate from './Rate'
 
 const styles = {
   tableRow: `text-white border-b border-gray-800 text-[0.93rem]`,
@@ -75,11 +76,11 @@ const CMCtableRow = ({
 
                 {coinIcon && coinIcon ? (
                 <td className='cursor-pointer'>
-                    {/* <CoinNameRow
+                    <CoinNameRow
                         name={coinName}
                         icon={coinIcon}
                         clicked={viewCoinDetails}
-                    /> */}
+                    />
                 </td>
                 ) : (
                 <></>
