@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import Header from '../../components/Header'
 import CMCpriceConverter from '../../components/CMCpriceConverter'
 import Graph from  '../../components/Graph'
+import Chat from  '../../components/Chat'
 
 // IMAGES
 import solana from '../../assets/solana.png'
@@ -99,7 +100,7 @@ const Currencies = () => {
                 </div>
 
                 <div className='pt-10 ml-5'>
-                    {/* <Chat /> */}
+                    <Chat />
                 </div>
             </div>
         </main>
