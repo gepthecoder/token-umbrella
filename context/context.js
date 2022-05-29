@@ -10,18 +10,16 @@ export const TokenUmbrellaProvider = ({ children }) => {
           const res = await fetch('/api/getTopTen')
           const data = await res.json()
           return data.data.data
-        } catch (e) {
-          console.log(e.message)
-        }
+        } catch (e) { console.log(e.message) }
     }
 
     return(
-        <TokenUmbrellaContext.TokenUmbrellaProvider
+        <TokenUmbrellaContext.Provider
             value= {{
-                getTopTenCoins
+                getTopTenCoins,
             }}
         >
             {children}
-        </TokenUmbrellaContext.TokenUmbrellaProvider>
+        </TokenUmbrellaContext.Provider>
     )
 }
