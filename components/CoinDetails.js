@@ -184,6 +184,13 @@ const CoinDetails = ({ coinName, coinSymbol, price }) => {
                         <div className={styles.greyBtn}>Explorers</div>
                         <div className={styles.greyBtn}>Community</div>
                         <div className={styles.greyBtn}>Chat</div>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    </div>
+                    <div className={styles.coinDetailsLinks}>
                         <div className={styles.greyBtn}>Source code</div>
                         <div className={styles.greyBtn}>Whitepaper</div>
                     </div>
