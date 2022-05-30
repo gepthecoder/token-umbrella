@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { MoralisProvider } from 'react-moralis'
 import { TokenUmbrellaProvider } from '../context/context'
+import { GunProvider } from '../context/gunContext'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,9 +9,11 @@ function MyApp({ Component, pageProps }) {
       serverUrl={process.env.NEXT_PUBLIC_SERVER}
       appId={process.env.NEXT_PUBLIC_APP_ID}
     >
-      <TokenUmbrellaProvider>
-        <Component {...pageProps} />
-      </TokenUmbrellaProvider>
+      <GunProvider>
+        <TokenUmbrellaProvider>
+          <Component {...pageProps} />
+        </TokenUmbrellaProvider>
+      </GunProvider>
     </MoralisProvider>
   )
 }
