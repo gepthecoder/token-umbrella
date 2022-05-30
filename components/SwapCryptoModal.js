@@ -34,10 +34,10 @@ const SwapCryptoModal = () => {
                     <p
                         className={styles.closeModalButton}
                         onClick={() => {
-                        setOpenBuyCryptoModal(false)
-                        setAmount(0)
-                        setFromToken('')
-                        setToToken('')
+                            setOpenBuyCryptoModal(false)
+                            setAmount(0)
+                            setFromToken('')
+                            setToToken('')
                         }}
                     >
                         close &times;
@@ -45,7 +45,7 @@ const SwapCryptoModal = () => {
                     </div>
                     <div className='mb-5' />
                     <label htmlFor='fromToken' className='block mb-2 ml-2'>
-                    From
+                        From
                     </label>
                     <select
                         name='fromToken'
@@ -56,11 +56,11 @@ const SwapCryptoModal = () => {
                     >
                     {coins.map(coin => {
                         if (!loadingCoins) {
-                        return (
-                            <option key={coin.id} value={coin.attributes.name}>
-                            {coin.attributes.name}
-                            </option>
-                        )
+                            return (
+                                <option key={coin.id} value={coin.attributes.Name}>
+                                    {coin.attributes.Name}
+                                </option>
+                            )
                         }
                     })}
                     <option value='ETH'>ETH</option>
@@ -77,9 +77,10 @@ const SwapCryptoModal = () => {
                     >
                     {coins.map(coin => {
                         if (!loadingCoins) {
+                            console.log(coin.attributes.Name, '☢')
                             return (
-                                <option key={coin.id} value={coin.attributes.name}>
-                                {coin.attributes.name}
+                                <option key={coin.id} value={coin.attributes.Name}>
+                                    {coin.attributes.Name}
                                 </option>
                             )
                         }

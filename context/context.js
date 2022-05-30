@@ -25,12 +25,14 @@ export const TokenUmbrellaProvider = ({ children }) => {
         isLoading: loadingCoins,
     } = useMoralisQuery('Coins')
 
+    console.log(loadingCoins, '♻')
+
     const [currentAccount, setCurrentAccount] = useState('')
     // Modal for swaping tokens
     const [openBuyCryptoModal, setOpenBuyCryptoModal] = useState(false)
     // Tokens swap handling
-    const [fromToken, setFromToken] = useState('ETH')
-    const [toToken, setToToken] = useState('')
+    const [fromToken, setFromToken] = useState('')
+    const [toToken, setToToken] = useState('Dai')
     const [amount, setAmount] = useState('')
 
     useEffect(() => {
