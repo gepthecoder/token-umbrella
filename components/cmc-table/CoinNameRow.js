@@ -1,3 +1,6 @@
+import { useContext } from 'react'
+import { TokenUmbrellaContext } from '../../context/context'
+
 import Image from "next/image"
 
 // Token Logos
@@ -20,6 +23,8 @@ const styles = {
 }
 
 const CoinNameRow = ({ name, icon, clicked }) => {
+
+    const { openModal } = useContext(TokenUmbrellaContext)
 
     const coinIcon = () => {
         switch(name) {
@@ -176,7 +181,7 @@ const CoinNameRow = ({ name, icon, clicked }) => {
             </div>
             <p>
                 {name === 'Bitcoin' || name ==='Ethereum' || name === 'Tether' ? (
-                    <span className={styles.buyButton}>
+                    <span className={styles.buyButton} onClick={() => {openModal()}}>
                         Buy
                     </span>
                 ) : (<></>)}
