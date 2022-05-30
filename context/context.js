@@ -17,6 +17,13 @@ export const TokenUmbrellaContext = createContext()
 export const TokenUmbrellaProvider = ({ children }) => {
 
     const { isAuthenticated, user, Moralis } = useMoralis()
+    
+    // Moralis query for coins
+    const {
+        data: coins,
+        error,
+        isLoading: loadingCoins,
+    } = useMoralisQuery('Coins')
 
     const [currentAccount, setCurrentAccount] = useState('')
     // Modal for swaping tokens
