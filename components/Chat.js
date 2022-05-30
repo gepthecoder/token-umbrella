@@ -108,9 +108,6 @@ const Chat = () => {
             <Button label='Post' onPress={sendMessage} />
         </div>
         <ChatCard/>
-        <ChatCard/>
-        <ChatCard/>
-
     </>
     )
 }
