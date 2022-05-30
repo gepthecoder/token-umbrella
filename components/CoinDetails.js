@@ -17,8 +17,6 @@ import DropDownBtn from './buttons/DropDownBtn'
 import Rate from './cmc-table/Rate'
 import RateFilled from './buttons/RateFilled'
 
-
-
 const styles = {
     coinDetails: `min-h-screen text-white`,
     coinDetailsLinks: `flex mt-3 flex-wrap`,
