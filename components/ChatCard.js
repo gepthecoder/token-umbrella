@@ -2,11 +2,18 @@ import { useEffect } from "react"
 
 import Image from "next/image"
 
-//ASSETS
+// ASSETS
 import Comment from "../assets/svg/comment"
 import Heart from "../assets/svg/heart"
 import MoreHorizontal from "../assets/svg/moreHorizontal"
 import Share from "../assets/svg/share"
+
+// COMPONENTS
+import BullishFilled from './buttons/BullishFilled'
+import BearishFilled from './buttons/BearishFilled'
+
+//TEMP
+import Shiba from '../assets/shiba.png'
 
 
 const styles = {
@@ -22,9 +29,44 @@ const styles = {
 }
 
 
-const ChatCard = () => {
+const ChatCard = ({ content = '', timestamp, sender, bullish, senderAvatar='', likes, comments }) => {
   return (
-    <div>ChatCard</div>
+    <div className={styles.chatCard}>
+        <div className={styles.chatCardWrapper}>
+            <div className={styles.flexCenter}>
+                <div>
+                    <Image width={40} height={40} src={Shiba} className="rounded-full" alt='' />
+                </div>
+                <div className={styles.labelsContainer}>
+                    {sender}
+                    &nbsp; • &nbsp;
+                    <span className={styles.grey400}>{timestamp}</span>
+                    &nbsp; • &nbsp;
+                    {bullish ? <BullishFilled /> : <BearishFilled />}
+                </div>
+            </div>
+            <MoreHorizontal />
+        </div>
+
+        <p className={styles.messageContent}>{content}</p>
+
+        <div className={styles.flexBetween}>
+            <div className={styles.postAction}>
+                <Comment />
+                <p className={styles.greyText}>{comments}</p>
+            </div>
+
+            <div className={styles.postAction}>
+                <Heart />
+                <p className={styles.greyText}>{likes}</p>
+            </div>
+
+            <div className={styles.postAction}>
+                <Share />
+                <p className={styles.greyText}>Share</p>
+            </div>
+        </div>
+    </div>
   )
 }
 
