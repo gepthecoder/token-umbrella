@@ -37,6 +37,7 @@ export const TokenUmbrellaProvider = ({ children }) => {
         if (isAuthenticated) {
           const account = user.get('ethAddress')
           setCurrentAccount(account)
+          console.log('user is authenticated!', '✅')
         }
     }, [isAuthenticated])
 
