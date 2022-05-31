@@ -1,4 +1,4 @@
-![token-umbrella](https://user-images.githubusercontent.com/38008294/171136436-017edb0e-e537-4752-bc77-5980fa4e47b9.png)
+![token-umbrella-outline](https://user-images.githubusercontent.com/38008294/171138045-635218dc-6584-4cd5-b3d1-1ebe3886bfaa.png)
 
 CoinMarketCap Web 3.0 Blockchain App with Moralis | Next.js | Tailwind CSS
 
