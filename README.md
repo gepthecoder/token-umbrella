@@ -17,6 +17,8 @@ CoinMarketCap Web 3.0 Blockchain App with Moralis | Next.js | Tailwind CSS
 
 ![image](https://user-images.githubusercontent.com/38008294/171132444-dc49bcf3-2ece-496f-850e-af99a2f92073.png)
 
+![image](https://user-images.githubusercontent.com/38008294/171134960-88a38139-2f0d-4bd0-b47d-9cfcde31b20a.png)
+
 ![image](https://user-images.githubusercontent.com/38008294/171132551-67053314-c900-4820-9971-7e0ab5e8e06a.png)
 
 ![image](https://user-images.githubusercontent.com/38008294/171132740-14443501-e0b8-4f5c-bd39-301d3fc1a10f.png)
@@ -30,6 +32,10 @@ CoinMarketCap Web 3.0 Blockchain App with Moralis | Next.js | Tailwind CSS
 ![image](https://user-images.githubusercontent.com/38008294/171133743-bb75ac8b-9671-47bb-bd58-b521fff9a38d.png)
 
 ![image](https://user-images.githubusercontent.com/38008294/171134115-b5a11e77-3cfc-4805-996d-c4eccc717afa.png)
+
+![image](https://user-images.githubusercontent.com/38008294/171135353-053cff89-d01b-4d59-af83-d76d03b4d240.png)
+
+
 
 
 
