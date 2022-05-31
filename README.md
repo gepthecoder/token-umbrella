@@ -4,6 +4,8 @@ CoinMarketCap Web 3.0 Blockchain App with Moralis | Next.js | Tailwind CSS
 💲💲💱 https://token-umbrella.netlify.app/ 💱💲💲
 
 #
+Additional features: built in crypto converter, decentralized chat & dex
+#
 
 ![image](https://user-images.githubusercontent.com/38008294/171131327-472aa2dd-c6c7-45f3-9901-9bda10bcd0f1.png)
 
@@ -36,7 +38,15 @@ CoinMarketCap Web 3.0 Blockchain App with Moralis | Next.js | Tailwind CSS
 ![image](https://user-images.githubusercontent.com/38008294/171135353-053cff89-d01b-4d59-af83-d76d03b4d240.png)
 
 
-
+#
+Dogecoin deployed to: 0x7E4944028A3f8566B9e85cc4200707d363DD3d6a
+#
+LinkToken deployed to: 0x1a79Bb02bb0C913b16de73909f9218c5B0ee0f48
+#
+DaiToken deployed to: 0xEb06465437e8C5B8f5C395e3A9389445571cfdb8
+#
+UsdcToken deployed to: 0x7C559DC1a23909D297eaf828dd1Ac70feb53F807
+#
 
 
 
