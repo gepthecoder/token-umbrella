@@ -1,4 +1,5 @@
-# token-umbrella
+![token-umbrella](https://user-images.githubusercontent.com/38008294/171136436-017edb0e-e537-4752-bc77-5980fa4e47b9.png)
+
 CoinMarketCap Web 3.0 Blockchain App with Moralis | Next.js | Tailwind CSS
 
 💲💲💱 https://token-umbrella.netlify.app/ 💱💲💲
